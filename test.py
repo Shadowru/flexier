@@ -22,8 +22,8 @@ Lines = file1.readlines()
 count = 0
 for line in Lines:
     line = line.replace('"', '')
-    line = line.replace('«', '')
-    line = line.replace('»', '')
+    # line = line.replace('«', '')
+    # line = line.replace('»', '')
     words = line.split()
     new_line = ''
 
